@@ -4,38 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRANAback</title>
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#000000">
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            height: 100%;
-            width: 100%;
-        }
-        iframe {
-            border: none;
-            width: 100%;
-            height: 100%;
-        }
-    </style>
+    <script>
+        // Redireciona direto para o site do Canva se o iframe falhar
+        window.location.href = "https://xn--kcia-queiroz-nails-designer-boc.my.canva.site/dividas-";
+    </script>
 </head>
 <body>
-    <iframe src="https://xn--kcia-queiroz-nails-designer-boc.my.canva.site/dividas-"></iframe>
-
-    <script>
-        if ("serviceWorker" in navigator) {
-            window.addEventListener("load", () => {
-                navigator.serviceWorker.register("/service-worker.js")
-                    .then(registration => {
-                        console.log("Service Worker registered: ", registration);
-                    })
-                    .catch(error => {
-                        console.error("Service Worker registration failed: ", error);
-                    });
-            });
-        }
-    </script>
+    <p>Carregando GRANAback...</p>
 </body>
 </html>
